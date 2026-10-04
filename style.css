@@ -23,11 +23,11 @@ body {
     max-width: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 h1 {
-    text-align: center;
+    text-align: left;
     color: #333;
     margin-bottom: 20px;
     font-size: 2.5em;
@@ -281,11 +281,11 @@ h1 {
 
     .container {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     h1 {
-        text-align: center;
+        text-align: left;
         font-size: 1.8em;
     }
     
