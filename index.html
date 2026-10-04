@@ -11,24 +11,23 @@
         <h1>📅 병진의 달력</h1>
 
         <div class="calendar-wrapper">
-            <!-- 업로드 버튼: 엑셀(.xlsx/.xls/.csv) 파일 업로드 -->
-            <div class="calendar-actions">
-                <label class="upload-button" for="uploadInput">업로드</label>
-                <input id="uploadInput" type="file" accept=".xlsx,.xls,.csv" />
-            </div>
-
             <div class="calendar-header">
                 <div class="calendar-nav">
                     <button id="prevBtn" class="nav-btn">◀ 이전</button>
                     <h2 id="monthYear"></h2>
                     <button id="nextBtn" class="nav-btn">다음 ▶</button>
                 </div>
+
+                <!-- 업로드 버튼: 엑셀(.xlsx/.xls/.csv) 파일 업로드 -->
+                <div class="calendar-actions">
+                    <label class="upload-button" for="uploadInput">업로드</label>
+                    <input id="uploadInput" type="file" accept=".xlsx,.xls,.csv" />
+                </div>
             </div>
 
             <div class="calendar">
                 <div class="weekdays">
                     <div>일</div>
-                    <div>월</div>
                     <div>월</div>
                     <div>화</div>
                     <div>수</div>
