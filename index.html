@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할 일 달력</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📅 할 일 달력</h1>
+
+        <div class="calendar-wrapper">
+            <div class="calendar-header">
+                <button id="prevBtn" class="nav-btn">◀ 이전</button>
+                <h2 id="monthYear"></h2>
+                <button id="nextBtn" class="nav-btn">다음 ▶</button>
+            </div>
+
+            <div class="calendar">
+                <div class="weekdays">
+                    <div>일</div>
+                    <div>월</div>
+                    <div>화</div>
+                    <div>수</div>
+                    <div>목</div>
+                    <div>금</div>
+                    <div>토</div>
+                </div>
+                <div id="daysContainer" class="days"></div>
+            </div>
+        </div>
+
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3 id="selectedDate"></h3>
+                <input type="text" id="todoInput" placeholder="할 일을 입력하세요">
+                <button id="addTodoBtn">추가</button>
+
+                <ul id="todoList" class="todo-list"></ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
