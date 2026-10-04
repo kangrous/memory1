@@ -91,7 +91,7 @@ h1 {
 
 .day {
     aspect-ratio: 1;
-    padding: 8px;
+    padding: 4px;
     border: 1px solid #e0e0e0;
     cursor: pointer;
     display: flex;
@@ -116,6 +116,7 @@ h1 {
     font-weight: bold;
     color: #333;
     font-size: 0.9em;
+    margin: 2px;
 }
 
 .day.other-month .day-number {
@@ -125,8 +126,8 @@ h1 {
 .todo-count {
     font-size: 0.7em;
     color: #667eea;
-    margin-top: 3px;
-    margin-left: 0;
+    margin-top: 1px;
+    margin-left: 2px;
 }
 
 .day.has-todo {
