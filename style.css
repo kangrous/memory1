@@ -9,7 +9,7 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px;
 }
@@ -23,11 +23,11 @@ body {
     max-width: none;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     color: #333;
     margin-bottom: 20px;
     font-size: 2.5em;
@@ -37,14 +37,15 @@ h1 {
     margin-bottom: 30px;
     width: 100%;
     transform: scale(0.7);
-    transform-origin: top left;
+    transform-origin: top center;
     width: 142.857%;
-    margin-right: -30.286%;
+    margin-left: -21.428%;
+    margin-right: -21.428%;
 }
 
 .calendar-header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
     gap: 20px;
@@ -83,7 +84,6 @@ h1 {
     grid-template-columns: repeat(7, 1fr);
     background: #f5f5f5;
     border-bottom: 2px solid #e0e0e0;
-    width: 100%;
 }
 
 .weekdays div {
@@ -92,13 +92,11 @@ h1 {
     font-weight: bold;
     color: #667eea;
     font-size: 1.1em;
-    flex: 1;
 }
 
 .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    width: 100%;
 }
 
 .day {
