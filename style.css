@@ -36,11 +36,8 @@ h1 {
 .calendar-wrapper {
     margin-bottom: 30px;
     width: 100%;
-    transform: scale(0.7);
-    transform-origin: top center;
-    width: 142.857%;
-    margin-left: -21.428%;
-    margin-right: -21.428%;
+    display: flex;
+    justify-content: center;
 }
 
 .calendar-header {
